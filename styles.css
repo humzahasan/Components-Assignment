@@ -1,2 +1,11 @@
-/* IMPORT LIBRARY CSS */
 @import url(./library/libs.css);
+
+body {
+  background-color: tomato;
+}
+
+.card-example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}

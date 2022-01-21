@@ -8,3 +8,8 @@
   --grey: #4a5b67;
   --red: #e31837;
 }
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+@import url(./card/card.css);

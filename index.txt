@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Oswald:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./library/libs.css" />
+    <link rel="stylesheet" href="./library/card/card.css" />
+    <title>FeedyUI</title>
+  </head>
+  <body>
+    <div class="card-example-container">
+      <div class="card card-basic">
+        <div class="card-header">
+          <p class="card-head card-header-title">Programmer</p>
+          <p class="card-subhead card-basic-head-subtitle">Noun</p>
+        </div>
+        <div class="card-basic-content">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            officia doloremque ipsam laboriosam quasi quibusdam explicabo!
+          </p>
+        </div>
+      </div>
+
+      <div class="card card-media-top">
+        <div class="card-image card-media-top-image">
+          <img src="https://picsum.photos/400/160/?blur" alt="card-media" />
+        </div>
+        <div class="card-media-top-content">
+          <p class="card-head card-header-title">Programmer</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            officia doloremque ipsam laboriosam quasi quibusdam explicabo!
+          </p>
+        </div>
+      </div>
+
+      <div class="card card-media-top-action">
+        <div class="card-image card-media-top-image">
+          <img src="https://picsum.photos/400/160/?blur" alt="card-media" />
+        </div>
+        <div class="card-media-top-content">
+          <p class="card-head card-header-title">Programmer</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            officia doloremque ipsam laboriosam quasi quibusdam explicabo!
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="card">
+        <div class="card-head-top">
+          <div class="card-head-title">Programmer</div>
+          <div class="card-head-subtitle">Adjective</div>
+        </div>
+        <div class="card-body-media">
+          <div class="card-body-media-top">
+            <img src="https://picsum.photos/200/200/?blur" alt="card-media" />
+          </div>
+          <div class="card-body-content-top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+            placeat aliquam neque. Consectetur voluptate perspiciatis id dolores
+            earum iure dicta cupiditate? Eius quam a aliquid, at asperiores
+            reprehenderit maiores ratione.
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
