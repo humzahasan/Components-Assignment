@@ -1,4 +1,5 @@
-:root {
+@import url(./card/card.css);
+@import url(./chips/chips.css); /* :root {
   --light-grey: #ecebe894;
   --dark-red: #cb202d;
   --orange: #fc8019;
@@ -7,9 +8,6 @@
   --black: #2d2d2d;
   --grey: #4a5b67;
   --red: #e31837;
-}
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif; */
+} */
 
-@import url(./card/card.css);
+/* @import url(card/card.css); */

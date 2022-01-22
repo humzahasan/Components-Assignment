@@ -1,10 +1,9 @@
 @import url(./library/libs.css);
-
 body {
-  background-color: tomato;
+  background-color: white;
 }
 
-.card-example {
+.card-components {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;

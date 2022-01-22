@@ -1,7 +1,7 @@
 /* COMMON STYLING OF ALL CARDS*/
 
 .card {
-  box-shadow: 3px 3px 10px lightslategray;
+  box-shadow: 2px 2px 5px #e31837;
   background-color: white;
   width: 15rem;
   border-radius: 15px;
