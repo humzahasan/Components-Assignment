@@ -1,3 +1,5 @@
+/* COMMON STYLING OF ALL CARDS*/
+
 .card {
   box-shadow: 3px 3px 10px lightslategray;
   background-color: white;
@@ -65,44 +67,39 @@ i {
   color: #e31837;
 }
 
-.card-basic .card-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+/* STYLING OF SOCIAL CARD*/
 
-.card-basic .card-header-left,
-.card-basic .card-header-right,
-.card-basic .card-body-img,
-.card-basic .card-footer {
-  display: none;
-}
-
-.card-social .card-body {
+.card-social-body {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.card-social .card-body-img {
+.card-social-body-img {
+  margin-left: -1rem;
   margin-right: -1rem;
 }
 
-.card-media .card-header {
+/* STYLING OF MEDIA CARD*/
+
+.card-media-header {
   order: 2;
   display: none;
 }
 
-.card-media .card-body {
+.card-media-body {
   order: 1;
   display: flex;
   flex-direction: column-reverse;
 }
 
-.card-media .card-body-img {
+.card-media-body-img {
   margin-right: -1rem;
   margin-top: -1rem;
+  margin-left: -1rem;
 }
 
-.card-media .card-footer {
+.card-media-footer {
   order: 3;
+  display: flex;
+  justify-content: space-between;
 }
