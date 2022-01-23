@@ -1,0 +1,41 @@
+.header-basic {
+  background-color: #e31837;
+  display: flex;
+  align-items: center;
+}
+
+.header-basic-left {
+  display: flex;
+  align-items: center;
+}
+.header-basic-right {
+  margin-left: auto;
+}
+
+.header-basic-icon {
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.header-basic-text {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.header-basic-component {
+  /* width: 50rem; */
+  height: 10rem;
+  overflow: scroll;
+  margin: 5rem;
+}
+
+.header-fixed {
+  background-color: #e31837;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
