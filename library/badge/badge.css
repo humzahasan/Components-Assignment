@@ -1,1 +1,50 @@
 @import url(../libs.css);
+
+.badge {
+  margin: 1rem;
+  /* padding: 0.5rem; */
+}
+
+.badge-text {
+  position: relative;
+  display: inline-block;
+}
+
+.badge-button {
+  position: relative;
+  padding: 0.5rem;
+  background-color: #ffff;
+  border: 1px solid #e31837;
+  border-radius: 5px;
+  color: #e31837;
+  bottom: -5px;
+  /* margin: 0.5rem; */
+}
+
+.badge-count {
+  position: absolute;
+  padding: 0.1rem;
+  width: 1rem;
+  /* height: 1rem; */
+  border-radius: 50%;
+  background-color: #e31837;
+  color: white;
+  text-align: center;
+}
+
+.badge-count-large {
+  padding: 0.25rem;
+}
+
+.badge-left {
+  left: 5px;
+}
+
+.badge-button > .badge-count {
+  margin-bottom: 2px;
+}
+
+.badge > i {
+  position: relative;
+  bottom: -10px;
+}

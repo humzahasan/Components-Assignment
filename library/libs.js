@@ -6,8 +6,6 @@ const deleteableChips = document.querySelectorAll(".chips-cancel");
 
 deleteableChips.forEach((el) => el.addEventListener("click", closeChips));
 
-console.log(deleteableChips);
-
 function closeChips(e) {
   e.target.parentNode.classList.add("remove-chips");
   console.log("chips removed");
