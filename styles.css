@@ -11,5 +11,13 @@ body {
 
 .chips-components {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.badge-components {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   flex-direction: column;
 }
