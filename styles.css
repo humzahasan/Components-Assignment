@@ -8,3 +8,8 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
+
+.chips-components {
+  display: flex;
+  flex-direction: column;
+}

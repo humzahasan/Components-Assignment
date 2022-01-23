@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>FeedyUI</title>
   </head>
+
   <body>
     <div class="component-container">
       <h2>Card Components</h2>
@@ -151,6 +152,51 @@
           </div>
         </div>
       </div>
+      <h2>Chips Components</h2>
+      <div class="chips-components">
+        <div class="chips-horizontal-container">
+          <span class="chips chips-outline">Outline Chips</span>
+          <span class="chips chips-primary">Filled Chips</span>
+          <span class="chips chips-delete" id="chip1"
+            >Removeable Chips<i class="far fa-times-circle chips-cancel"></i
+          ></span>
+          <span class="chips chips-icon-delete" id="chip2"
+            ><i class="fal fa-calendar-alt"></i>Icon Chips<i
+              class="far fa-times-circle chips-cancel"
+            ></i
+          ></span>
+        </div>
+
+        <div class="chips-vertical-container">
+          <span class="chips chips-outline">Outline Chips</span>
+          <span class="chips chips-primary">Filled Chips</span>
+          <span class="chips chips-delete" id="chip3"
+            >Removeable Chips<i class="far fa-times-circle chips-cancel"></i
+          ></span>
+          <span class="chips chips-icon-delete" id="chip4"
+            ><i class="fal fa-calendar-alt"></i>Icon Chips<i
+              class="far fa-times-circle chips-cancel"
+            ></i
+          ></span>
+        </div>
+
+        <div class="chips-input-container">
+          <div id="chipWrapper" class="chips-wrapper"></div>
+          <form>
+            <input
+              type="text"
+              class="chips-input"
+              id="chipsInput"
+              placeholder="Input your keywords"
+            />
+            <button id="chipsBtn" type="submit" style="display: none">
+              submit
+            </button>
+          </form>
+        </div>
+        <span></span>
+      </div>
     </div>
+    <script src="app.js" type="module"></script>
   </body>
 </html>

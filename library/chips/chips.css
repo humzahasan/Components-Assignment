@@ -1,0 +1,69 @@
+.chips {
+  background-color: #e31837;
+  padding: 0.4rem;
+  border-radius: 10px;
+  margin: 0 0.25rem;
+  color: #fff;
+}
+
+.chips-outline,
+.chips-primary:hover {
+  background-color: #ffff;
+  border: 1px solid #e31837;
+  color: #e31837;
+}
+
+.chips-outline:hover,
+.chips-primary {
+  background-color: #e31837;
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+
+.chips-delete > i,
+.chips-icon-delete > i {
+  color: white;
+  margin: 0 0.25rem;
+}
+
+.chips-horizontal-container,
+.chips-vertical-container {
+  display: flex;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.chips-vertical-container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.chips-vertical-container .chips {
+  margin: 0.15rem;
+}
+
+.chips-input-container {
+  border: 1px solid #e31837;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.chips-input {
+  border: none;
+  border-bottom: 1px solid #e31837;
+}
+
+.chips-input:focus {
+  outline: none;
+}
+
+.remove-chips {
+  display: none;
+}
+
+.chips-wrapper {
+  margin: 1rem;
+  padding: 1rem;
+}
