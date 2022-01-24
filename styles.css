@@ -35,6 +35,6 @@ body {
 .header-fixed-component {
   /* width: 50rem; */
   height: 20rem;
-  /* overflow: scroll; */
-  /* margin: 5rem; */
+  overflow: scroll;
+  margin: 5rem 0;
 }
