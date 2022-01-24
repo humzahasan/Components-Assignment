@@ -1,0 +1,56 @@
+.drawer {
+  /* border: 1px solid red; */
+  width: 20%;
+  box-shadow: 1px 1px 1px gainsboro;
+}
+.drawer-header {
+  margin-left: 1rem;
+}
+
+.drawer-title {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.drawer-subtitle {
+  margin: 0.5rem;
+  font-size: 1rem;
+  color: gray;
+}
+.drawer-item {
+  list-style: none;
+  padding: 1rem;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+}
+
+.drawer-item:hover {
+  background-color: #e318361c;
+}
+.division {
+  padding: 0.1rem;
+  border-bottom: 1px dotted red;
+}
+
+.subhead {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: gray;
+}
+
+.subhead:hover {
+  background-color: white;
+}
+
+.drawer-item > i {
+  margin: 0 0.5rem;
+}
+
+.active {
+  background-color: #e318361c;
+  color: red;
+}
+
+.drawer-dismissible {
+  display: none;
+}

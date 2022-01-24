@@ -36,10 +36,3 @@
   text-decoration: none;
   font-size: 2rem;
 }
-
-.header-basic-component {
-  /* width: 50rem; */
-  height: 10rem;
-  overflow: scroll;
-  margin: 5rem;
-}

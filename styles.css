@@ -21,3 +21,20 @@ body {
   align-items: flex-start;
   flex-direction: column;
 }
+
+.container-page {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-page > button {
+  padding: 1rem;
+}
+
+.header-basic-component,
+.header-fixed-component {
+  /* width: 50rem; */
+  height: 20rem;
+  /* overflow: scroll; */
+  /* margin: 5rem; */
+}
