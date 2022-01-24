@@ -2,6 +2,7 @@
 @import url(./chips/chips.css);
 @import url(./badge/badge.css);
 @import url(./header/header.css);
+@import url(./dialogs/dialogs.css);
 
 :root {
   --light-grey: #ecebe894;

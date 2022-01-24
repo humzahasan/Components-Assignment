@@ -26,3 +26,22 @@ function addChips(e) {
     document.getElementById("chipsInput").value = "";
   }
 }
+
+const dialog = document.getElementById("simpleDialog");
+const btn = document.getElementsByClassName("dBtn")[0];
+console.log(btn);
+const span = document.getElementsByClassName("modal-close")[0];
+
+btn.addEventListener("click", function () {
+  dialog.style.display = "block";
+});
+
+span.addEventListener("click", function () {
+  dialog.style.display = "none";
+});
+
+window.onclick = function (event) {
+  if (event.target == dialog) {
+    dialog.style.display = "none";
+  }
+};
