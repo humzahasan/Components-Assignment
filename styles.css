@@ -38,3 +38,7 @@ body {
   overflow: scroll;
   margin: 5rem 0;
 }
+
+.demo-container {
+  display: flex;
+}
