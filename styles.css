@@ -42,3 +42,19 @@ body {
 .demo-container {
   display: flex;
 }
+
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  :root {
+    font-size: 30%;
+  }
+}
