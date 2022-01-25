@@ -29,7 +29,7 @@ function addChips(e) {
 
 const dialog = document.getElementById("simpleDialog");
 const btn = document.getElementsByClassName("dBtn")[0];
-console.log(btn);
+
 const span = document.getElementsByClassName("modal-close")[0];
 
 btn.addEventListener("click", function () {

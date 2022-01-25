@@ -4,6 +4,8 @@
 @import url(./drawer/drawer.css);
 @import url(./dialogs/dialogs.css);
 @import url(./header/header.css);
+@import url(./snackbar/snackbar.css);
+@import url(./tabs/tabs.css);
 
 :root {
   --light-grey: #ecebe894;

@@ -29,7 +29,7 @@
 }
 .division {
   padding: 0.1rem;
-  border-bottom: 1px dotted red;
+  border-bottom: 1px dotted #e31837;
 }
 
 .subhead {
@@ -48,7 +48,7 @@
 
 .active {
   background-color: #e318361c;
-  color: red;
+  color: #e31837;
 }
 
 .drawer-dismissible {
